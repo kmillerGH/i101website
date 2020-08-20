@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<link href="index.css" rel="stylesheet" type="text/css" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<head>
+	<title> 
+    	Homepage 
+    </title>
+</head>
+
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
+	$(document).ready(function () {
+    $('div#menubar > a').click(function(){
+        var iframeSrc = $(this).attr('href');
+        $('#iframediv').fadeOut(1000,function(){
+            $('#iframediv iframe').attr('src',iframeSrc);
+            $('#iframediv').fadeIn(1000);
+        });
+        return false;
+    });
+});
+</script>
+
+<body>
+<center>
+	<div class="headbackground">
+		<h1 class="headfont1"> Kellen's Homepage</h1>
+		<h2 class="headfont2"> I101 Individual Project </h2>
+	
+	<div id="menubar">
+    	<a id="menulink" href="homepage.html" target="iframe1"> Homepage </a>
+		<a id="menulink" href="about.html" target="iframe1"> About Me </a>
+    	<a id="menulink" href="projects.html" target="iframe1"> Projects </a>
+    	<a id="menulink" href="resume.html" target="iframe1"> Resume </a>
+	</div>
+    </div>
+</center>
+
+<div id="iframediv">
+	<iframe id="iframe1" name="iframe1" src="http://mypage.iu.edu/~kdm6/homepage.html" frameborder="0">
+	</iframe>
+</div>
+
+</body>
+
+</html>

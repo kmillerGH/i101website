@@ -1,0 +1,13 @@
+@charset "utf-8";
+/* CSS Document */
+
+.ssmove {
+	padding-top:50px;
+}
+
+.open {
+	width:800px;
+	background-color:RGBa(0,0,0,.75);
+	color:#999;
+	font:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}

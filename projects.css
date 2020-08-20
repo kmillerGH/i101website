@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+
+.contentcontainer {
+	background-color:RGBa(0,0,0,.75);
+	color:#999;
+	width:700px;
+	font:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+div#leftalign > p {
+	text-align:left;
+}
+
+.filler {
+	background-color:RGBa(0,0,0,.75);
+	width:700px;
+	height:50px;
+}
+
+a {
+	font:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:17px;
+	background:#333;
+	padding: 12px 24px;
+	color: #999;
+	margin-right: 10px;
+	text-decoration:none;
+	border-radius:3px;
+	transition: background 0.3s linear 0s, color 0.3s linear 0s;
+}
+
+a:hover {
+	background:#36F;
+	color:#FFF;
+	z-index:2;

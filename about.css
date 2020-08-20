@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* CSS Document */
+
+.contentcontainer {
+	color:#999;
+	font:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	width:700px;
+	background-color:RGBa(0,0,0,.75);
+}
+
+.font {
+	color:#999;
+	font:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
